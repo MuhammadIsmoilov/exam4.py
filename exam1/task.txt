@@ -1,0 +1,47 @@
+1:
+ Describe what virtualenv is and why it's useful in Python development. Provide steps to create and activate a virtual environment.
+ Опишите, что такое virtualenv и почему он полезен при разработке на Python. Предоставьте инструкции по созданию и активации виртуальной среды.
+ virtual env in yak papkai virtualni mesozad ki dar baynashon konflikt naboshad 
+  va baroi skachat kardan mo komandai : pip install venv / pipenv mekunem
+  2:
+    Differentiate between an expression and a statement in Python. Give an example of each.
+    
+    Различие между выражением и оператором в Python. Приведите пример каждого.
+ expressions : + , -, *, **,/,%
+ statement : x ,y yoki yagon nomi variable ki hdmonda makul ast 
+ example: a = 12
+            a /2
+            print(a) 
+4:
+    Explain the purpose of a try-except block in Python. Provide an example of how it can be used to handle exceptions.
+
+    Объясните назначение блока try-except. Приведите пример того, как его можно использовать.            
+    try except in yak funkciyae hast ki mo agar istifoda baremsha mo metonem agar xato knem 
+    example: 
+    try:
+    a = 13
+    print(a)
+    except:
+      print ("Error")
+5:
+    What is the "match" statement introduced in Python 3.10? Provide an example of how it can be used with pattern matching.
+
+    Что такое оператор «match»? Приведите пример того, как его можно использовать.
+match case kori moro hela hub mekunad misol rangi calculator  mo yagala if namegirem : yak match meknem 
+match:
+ a = int(input())
+ b = input()
+ c = int(input)
+ res = 0
+  case:
+   res = a+c
+   case:
+   res = a - c
+   print(res)
+8:
+    Explain the differences between tuples, lists, dictionaries, and sets in Python. Provide a use case for each data structure.
+    Объясните различия между кортежами, списками, словарями и множествами в Python. Предоставьте вариант использования для каждой структуры данных.   
+    list rangi massive ast daroziashro mo hdmon metiyem va ba indexash print meknem bo komandai lst() fayrodsh meknem va dar [] menavisem va metonem bo luboy raqame ki mexoxem doxilsh knem
+    dictionary bosha in rangi slovar ast bisor funkciyaxoi nagz dorad ki mo metonem istifoda barem va mo metonem ba funkciyai dict() nomi yak massivi giriftagimona alish knem 
+    farqiyati asosiashon dar on meboshad ki dar dictionary mo rangi kluch karda istifoda barem 
+    
